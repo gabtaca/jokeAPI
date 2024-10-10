@@ -1,0 +1,112 @@
+body {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(50, 50, 105);
+}
+
+.ctrl_card {
+    display: flex;
+    justify-content: center;
+}
+
+.jokeCard {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 30px;
+    border: 2px white;
+    border-radius: 30px;
+    filter: drop-shadow(5px 5px 1px #ffffff);
+}
+
+li {
+    width: 60%;
+    background-color: aliceblue;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px white;
+    border-radius: 30px;
+    filter: drop-shadow(5px 5px 1px #ffffff);
+    color: rgb(146, 100, 0);
+    margin: 30px;
+}
+
+h1 {
+    color: rgb(146, 100, 0);
+}
+
+h2 {
+    color: rgb(146, 100, 0);
+}
+
+.ctrl_list-fav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#btn_list-fav {
+    margin: 30px;
+    background: none;
+    padding: 20px;
+    width: 10rem;
+    background-color: pink;
+    border-radius: 30px;
+    border: solid white 2px;
+    cursor: pointer;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+    font-size: larger;
+}
+
+.ctrl_btn-jokeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn_removeJoke {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 30px;
+}
+
+#btn_fav {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+#list_fav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.img_heart {
+    background-color: none;
+}
+
+#btn_refresh {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+
+.img_refresh {
+    background-color: none;
+}
